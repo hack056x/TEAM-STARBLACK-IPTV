@@ -1,0 +1,208 @@
+/* style.css - Estilos profesionales para IPTV CHECKER */
+body {
+    background: linear-gradient(145deg, #0a0e1c 0%, #141d30 100%);
+    font-family: 'Inter', sans-serif;
+    color: #e9edf5;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.card {
+    background: rgba(18, 25, 40, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(90, 140, 255, 0.2);
+    border-radius: 2.5rem;
+    padding: 2rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+}
+.card h3 {
+    color: #66ccff;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #ffffff, #bdd3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-control {
+    background: #02061780;
+    border: 1px solid #364a76;
+    color: white;
+    border-radius: 60px;
+    padding: 0.9rem 1rem;
+}
+.form-control:focus {
+    border-color: #6d8cff;
+    box-shadow: 0 0 0 3px #1e3b8a66;
+    background: #020617;
+    color: white;
+}
+.btn-primary {
+    background: linear-gradient(145deg, #1f3a7a, #122756);
+    border: 1px solid #4e7eff;
+    border-radius: 60px;
+    padding: 0.9rem;
+    font-weight: 600;
+    transition: 0.15s;
+}
+.btn-primary:hover {
+    background: linear-gradient(145deg, #24438f, #18316b);
+    transform: scale(1.02);
+    border-color: #7a9aff;
+}
+.error-msg {
+    color: #ff8a8a;
+    background: #2a1b2b;
+    padding: 0.8rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    border: 1px solid #ff6b8b;
+}
+.text-muted {
+    color: #8da4cc !important;
+}
+.footer-info {
+    color: #5f7bbf;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+}
+
+/* Glass panel para checker */
+.glass-panel {
+    background: rgba(18, 25, 40, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(90, 140, 255, 0.15);
+    border-radius: 2.5rem;
+    padding: 2rem;
+    width: 100%;
+}
+.header-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.logo-icon {
+    background: #1e2b4a;
+    width: 52px;
+    height: 52px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #66ccff;
+}
+.badge-user {
+    background: #232f4b;
+    border-radius: 30px;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid #3f518b;
+    color: #aec9ff;
+}
+.logout-btn, .admin-btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+.logout-btn {
+    background: #2d1f2f;
+    border: 1px solid #b3668c;
+    color: #ffc2d9;
+}
+.admin-btn {
+    background: #1f3a4d;
+    border: 1px solid #66a3ff;
+    color: #b6dcff;
+}
+.control-panel {
+    background: #0f172bb3;
+    border-radius: 2rem;
+    padding: 1.8rem;
+    margin-bottom: 2rem;
+}
+.server-input-group label {
+    color: #90a9d9;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.input-wrapper {
+    background: #02061780;
+    border-radius: 60px;
+    border: 1px solid #364a76;
+    padding: 0 6px;
+}
+.input-wrapper input {
+    background: transparent;
+    border: none;
+    padding: 0.9rem 1rem;
+    color: white;
+    width: 100%;
+}
+.custom-file-upload {
+    background: #111c31;
+    border: 1px dashed #4f6da3;
+    border-radius: 60px;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    color: #bfd2ff;
+}
+.stat-check-item {
+    background: #101b2c;
+    border-radius: 40px;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid #374e7c;
+}
+.results-container {
+    display: grid;
+    grid-template-columns: 1.4fr 0.9fr;
+    gap: 1.8rem;
+}
+.table-scroll {
+    max-height: 360px;
+    overflow-y: auto;
+    background: #0b1020;
+    border-radius: 18px;
+    border: 1px solid #25375b;
+}
+table {
+    width: 100%;
+    font-size: 0.85rem;
+}
+th {
+    background: #1b2645;
+    color: #b6d0ff;
+    padding: 0.8rem;
+    position: sticky;
+    top: 0;
+}
+td {
+    padding: 0.7rem;
+    border-bottom: 1px solid #1f2d4a;
+    color: #cfdcff;
+}
+.hit-row {
+    color: #a0ffb0;
+}
+.fail-row {
+    color: #ffa2a2;
+}
+.log-area {
+    background: #030614;
+    border-radius: 20px;
+    padding: 1rem;
+    height: 300px;
+    overflow-y: auto;
+    font-family: monospace;
+    font-size: 0.75rem;
+    border: 1px solid #32487a;
+    color: #c0d0f0;
+}
+.hit-log { color: #a3ffb4; }
+.fail-log { color: #ff9595; }
+.footer-credits {
+    margin-top: 2rem;
+    color: #7087bc;
+    border-top: 1px solid #1f3055;
+    padding-top: 1rem;
+}
