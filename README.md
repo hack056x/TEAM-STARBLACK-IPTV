@@ -29,6 +29,7 @@ listo ya puede inicia con admin:1234 y empezar a crear usuario.
 
 nota: recuerda crearte un usuario y eliminar el delfaut.
 
+web de muestra como es este proyecto: https://teamstarblack.ct.ws/checker/index.php
 
 By @hacker056
 
